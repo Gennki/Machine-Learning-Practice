@@ -6,3 +6,4 @@ import numpy as np
 mnist = input_data.read_data_sets("C:/Users/Flyn/Desktop/MachineLearning/tensorflow/mnist")
 
 print(mnist.train.images.shape)
+
