@@ -16,3 +16,5 @@ with tf.Session() as sess:
     sess.run(init)
     tf.summary.FileWriter(path, sess.graph)  # 保存图
     print(sess.run(y, feed_dict={x: 3.0}))
+
+# 假设当前路径和log文件夹同一级,打开图的命令为tensorboard --logdir ./log
